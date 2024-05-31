@@ -1,0 +1,41 @@
+{
+  "name": "nano-id",
+  "version": "0.1.0",
+  "description": "Nano ID wrapper with custom functionalities",
+  "license": "MIT",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiamalonni/nano-id.git"
+  },
+  "author": {
+    "name": "Mattia Malonni",
+    "email": "mattia.malonni@gmail.com"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/mattiamalonni/nano-id/issues"
+  },
+  "homepage": "https://github.com/mattiamalonni/nano-id#readme",
+  "scripts": {
+    "build": "npm i && tsup",
+    "deploy": "npm i && tsup && npm publish"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "eslint": "^9.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
