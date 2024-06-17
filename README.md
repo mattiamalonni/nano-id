@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm i nano-id
+npm i mattiamalonni/nano-id
 ```
 
 ## Usage
